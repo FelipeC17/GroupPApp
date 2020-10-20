@@ -62,7 +62,7 @@ public class RegisterUser extends AppCompatActivity {
                            Toast.makeText(RegisterUser.this, "User Created", Toast.LENGTH_SHORT).show();
 
                        }  else {
-                              Toast.makeText(RegisterUser.this, "Error" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                              Toast.makeText(RegisterUser.this, "Error !" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                        }
 
                    }
